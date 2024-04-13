@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#A8C1BB;
+    text-align: center;
+}
+.Main{
+    margin: 30px;
+}
+.container{
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+}
+#Title{
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+}
+.Game{
+    height: 60vmin;
+    width: 60vmin;
+    display: grid;
+    grid-template-columns:repeat(3,120px);
+    grid-template-rows: repeat(3,120px);
+    justify-content: center;
+    margin-top: 35px;
+    grid-gap: 4px;
+    
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 7px 8px 20px rgba(113, 107, 107, 0.6);
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 6vmin;
+  color: #2D323C;
+  background-color: #f5f1b7;
+}
+#reset-Btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #2D323C;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+}
+#new-Btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #2D323C;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin: 7px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+}
+#msg{
+    color: #5c5b55;
+    font-size: 5vmin;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+}
+.msg-container{
+    margin-top: 10px;
+    height: 5vmin;
+}
+.hide{
+    display: none;
+}
