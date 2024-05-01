@@ -83,6 +83,9 @@ body{
 
 /* Media Query */
 @media only screen and (max-width:600px){
+    .container{
+        height: 60vh;
+    }
     .Game{
         height: 40vmin;
         margin: 5%;
