@@ -84,7 +84,7 @@ body{
 /* Media Query */
 @media only screen and (max-width:600px){
     .Game{
-        height: 30vmin;
+        height: 40vmin;
         margin: 5%;
         display: grid;
         grid-gap:0px;
@@ -92,6 +92,15 @@ body{
         justify-content: center;
         grid-template-columns:repeat(3,90px);
         grid-template-rows: repeat(3,90px);
+    }
+    #reset-Btn, #new-Btn{
+        font-size: 1rem;
+    }
+    .msg-container{
+        margin-top: 10%;
+    }
+    .container{
+        margin-top: 20%;
     }
   
 }
