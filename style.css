@@ -79,3 +79,19 @@ body{
 .hide{
     display: none;
 }
+
+
+/* Media Query */
+@media only screen and (max-width:600px){
+    .Game{
+        height: 30vmin;
+        margin: 5%;
+        display: grid;
+        grid-gap:0px;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns:repeat(3,90px);
+        grid-template-rows: repeat(3,90px);
+    }
+  
+}
